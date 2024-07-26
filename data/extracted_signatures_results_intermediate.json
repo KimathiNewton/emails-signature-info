@@ -1,0 +1,134 @@
+{
+  "0": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Grace Thompson\",\n    \"email\": \"grace.thompson@events.com\",\n    \"phone\": \"+1 (555) 432-1098\",\n    \"job_title\": \"Event Coordinator\",\n    \"company\": \"Events Corp.\",\n    \"website\": \"www.events.com\",\n    \"social_media\": {\n        \"linkedin\": \"linkedin.com/in/gracethompson\"\n    }\n}\n```",
+    "original_content": "Hello,\n\nPlease find below the details of the upcoming event.\n\nThank you,\nGrace Thompson\nEvent Coordinator\ngrace.thompson@events.com\nEvents Corp.\nPhone: +1 (555) 432-1098\nWebsite: www.events.com\nLinkedIn: linkedin.com/in/gracethompson",
+    "expected_output": {
+      "name": "Grace Thompson",
+      "email": "grace.thompson@events.com",
+      "job_title": "Event Coordinator",
+      "company": "Events Corp.",
+      "phone": "+1 (555) 432-1098",
+      "website": "www.events.com"
+    }
+  },
+  "1": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Emily Rogers\",\n    \"email\": \"emily.rogers@marketingco.com\",\n    \"job_title\": \"Marketing Specialist\",\n    \"company\": \"MarketingCo\"\n}\n```",
+    "original_content": "Hello,\n\nThank you for your interest in our services. We will get back to you shortly with more details.\n\nBest,\nEmily\nEmily Rogers\nMarketing Specialist\nemily.rogers@marketingco.com\nMarketingCo",
+    "expected_output": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@marketingco.com",
+      "job_title": "Marketing Specialist",
+      "company": "MarketingCo"
+    }
+  },
+  "2": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Michael Brown\",\n    \"email\": \"michael.brown@xyzsolutions.com\",\n    \"job_title\": \"Project Manager\",\n    \"company\": \"XYZ Solutions\"\n}\n```",
+    "original_content": "Dear Team,\n\nThis is a reminder for our upcoming meeting tomorrow at 10 AM.\n\nBest regards,\nMichael Brown\nProject Manager\nXYZ Solutions\nmichael.brown@xyzsolutions.com",
+    "expected_output": {
+      "name": "Michael Brown",
+      "email": "michael.brown@xyzsolutions.com",
+      "job_title": "Project Manager",
+      "company": "XYZ Solutions"
+    }
+  },
+  "3": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Kevin Lee\",\n    \"job_title\": \"Senior Developer\",\n    \"phone\": \"(555) 987-6543\"\n}\n```",
+    "original_content": "Hi everyone,\n\nJust a quick note to let you know I'll be out of the office next week.\n\nCheers,\nKevin Lee\n\nSenior Developer\n(555) 987-6543",
+    "expected_output": {
+      "name": "Kevin Lee",
+      "job_title": "Senior Developer",
+      "phone": "(555) 987-6543"
+    }
+  },
+  "4": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Emily Rogers\",\n    \"email\": \"emily.rogers@marketingco.com\",\n    \"job_title\": \"Marketing Specialist\",\n    \"company\": \"MarketingCo\"\n}\n```",
+    "original_content": "Hello,\n\nThank you for your interest in our services. We will get back to you shortly with more details.\n\nBest,\nEmily\nEmily Rogers\nMarketing Specialist\nemily.rogers@marketingco.com\nMarketingCo",
+    "expected_output": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@marketingco.com",
+      "job_title": "Marketing Specialist",
+      "company": "MarketingCo"
+    }
+  },
+  "5": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Alan\"\n}\n```",
+    "original_content": "Hi,\n\nCan you please send me the latest sales figures?\n\nThanks,\nAlan",
+    "expected_output": {
+      "name": "Alan"
+    }
+  },
+  "6": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Customer Service Team\",\n    \"email\": \"support@shoponline.com\",\n    \"company\": \"ShopOnline Inc.\",\n    \"website\": \"www.shoponline.com\"\n}\n```",
+    "original_content": "Dear Customer,\n\nYour order has been shipped and will arrive within 5-7 business days.\n\nSincerely,\nCustomer Service Team\nsupport@shoponline.com\nShopOnline Inc.\nwww.shoponline.com",
+    "expected_output": {
+      "email": "support@shoponline.com",
+      "company": "ShopOnline Inc.",
+      "website": "www.shoponline.com"
+    }
+  },
+  "7": {
+    "extracted_signature": "```json\n{\n    \"name\": \"John\"\n}\n```",
+    "original_content": "Hey,\n\nI'll be joining the team call today at 3 PM.\n\nRegards,\nJohn",
+    "expected_output": {
+      "name": "John"
+    }
+  },
+  "8": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Rebecca White\",\n    \"email\": \"rebecca.white@salescorp.com\",\n    \"job_title\": \"Sales Manager\",\n    \"company\": \"SalesCorp\"\n}\n```",
+    "original_content": "Dear Alice,\n\nThank you for reaching out. I have forwarded your request to the relevant department.\n\nBest,\nRebecca White\nSales Manager\nrebecca.white@salescorp.com\nSalesCorp",
+    "expected_output": {
+      "name": "Rebecca White",
+      "email": "rebecca.white@salescorp.com",
+      "job_title": "Sales Manager",
+      "company": "SalesCorp"
+    }
+  },
+  "9": {
+    "extracted_signature": "```json\n{\n    \"name\": \"David\"\n}\n```",
+    "original_content": "Hi,\n\nI'm confirming our lunch meeting for tomorrow at 1 PM.\n\nCheers,\nDavid",
+    "expected_output": {
+      "name": "David"
+    }
+  },
+  "10": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Nina Thompson\",\n    \"email\": \"nina.thompson@hrsolutions.com\",\n    \"job_title\": \"HR Manager\",\n    \"company\": \"HR Solutions\"\n}\n```",
+    "original_content": "Hello,\n\nPlease review the attached document and let me know your thoughts.\n\nRegards,\nNina Thompson\nHR Manager\nnina.thompson@hrsolutions.com\nHR Solutions",
+    "expected_output": {
+      "name": "Nina Thompson",
+      "email": "nina.thompson@hrsolutions.com",
+      "job_title": "HR Manager",
+      "company": "HR Solutions"
+    }
+  },
+  "11": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Lauren Adams\",\n    \"email\": \"lauren.adams@abccorp.com\",\n    \"phone\": \"+1 (555) 321-9876\",\n    \"job_title\": \"Project Coordinator\",\n    \"company\": \"ABC Corp.\"\n}\n```",
+    "original_content": "Dear all,\n\nI have updated the project plan. Please review and provide your feedback.\n\nBest,\nLauren Adams\nProject Coordinator\nABC Corp.\nPhone: +1 (555) 321-9876\nEmail: lauren.adams@abccorp.com",
+    "expected_output": {
+      "name": "Lauren Adams",
+      "email": "lauren.adams@abccorp.com",
+      "job_title": "Project Coordinator",
+      "company": "ABC Corp.",
+      "phone": "+1 (555) 321-9876"
+    }
+  },
+  "12": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Mark Robinson\",\n    \"email\": \"mark.robinson@procure.com\",\n    \"job_title\": \"Procurement Specialist\",\n    \"company\": \"Procure Inc.\"\n}\n```",
+    "original_content": "Hi,\n\nCan you send me the contract details?\n\nThanks,\nMark\nMark Robinson\nProcurement Specialist\nmark.robinson@procure.com\nProcure Inc.",
+    "expected_output": {
+      "name": "Mark Robinson",
+      "email": "mark.robinson@procure.com",
+      "job_title": "Procurement Specialist",
+      "company": "Procure Inc."
+    }
+  },
+  "13": {
+    "extracted_signature": "```json\n{\n    \"name\": \"Chris Martin\",\n    \"email\": \"operations@logisticsco.com\",\n    \"job_title\": \"Operations Manager\",\n    \"company\": \"Logistics Co.\"\n}\n```",
+    "original_content": "Hello team,\n\nPlease see the attached agenda for tomorrow's meeting.\n\nRegards,\nChris\nChris Martin\nOperations Manager\noperations@logisticsco.com\nLogistics Co.",
+    "expected_output": {
+      "name": "Chris Martin",
+      "email": "operations@logisticsco.com",
+      "job_title": "Operations Manager",
+      "company": "Logistics Co."
+    }
+  }
+}
