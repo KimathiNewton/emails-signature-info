@@ -1,0 +1,120 @@
+[
+  {
+    "email_content": "Hello,\n\nPlease find below the details of the upcoming event.\n\nThank you,\nGrace Thompson\nEvent Coordinator\ngrace.thompson@events.com\nEvents Corp.\nPhone: +1 (555) 432-1098\nWebsite: www.events.com\nLinkedIn: linkedin.com/in/gracethompson",
+    "expected_output": {
+      "name": "Grace Thompson",
+      "email": "grace.thompson@events.com",
+      "job_title": "Event Coordinator",
+      "company": "Events Corp.",
+      "phone": "+1 (555) 432-1098",
+      "website": "www.events.com"
+    }
+  },
+  {
+    "email_content": "Hello,\n\nThank you for your interest in our services. We will get back to you shortly with more details.\n\nBest,\nEmily\nEmily Rogers\nMarketing Specialist\nemily.rogers@marketingco.com\nMarketingCo",
+    "expected_output": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@marketingco.com",
+      "job_title": "Marketing Specialist",
+      "company": "MarketingCo"
+    }
+  },
+  {
+    "email_content": "Dear Team,\n\nThis is a reminder for our upcoming meeting tomorrow at 10 AM.\n\nBest regards,\nMichael Brown\nProject Manager\nXYZ Solutions\nmichael.brown@xyzsolutions.com",
+    "expected_output": {
+      "name": "Michael Brown",
+      "email": "michael.brown@xyzsolutions.com",
+      "job_title": "Project Manager",
+      "company": "XYZ Solutions"
+    }
+  },
+  {
+    "email_content": "Hi everyone,\n\nJust a quick note to let you know I'll be out of the office next week.\n\nCheers,\nKevin Lee\n\nSenior Developer\n(555) 987-6543",
+    "expected_output": {
+      "name": "Kevin Lee",
+      "job_title": "Senior Developer",
+      "phone": "(555) 987-6543"
+    }
+  },
+  {
+    "email_content": "Hello,\n\nThank you for your interest in our services. We will get back to you shortly with more details.\n\nBest,\nEmily\nEmily Rogers\nMarketing Specialist\nemily.rogers@marketingco.com\nMarketingCo",
+    "expected_output": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@marketingco.com",
+      "job_title": "Marketing Specialist",
+      "company": "MarketingCo"
+    }
+  },
+  {
+    "email_content": "Hi,\n\nCan you please send me the latest sales figures?\n\nThanks,\nAlan",
+    "expected_output": {
+      "name": "Alan"
+    }
+  },
+  {
+    "email_content": "Dear Customer,\n\nYour order has been shipped and will arrive within 5-7 business days.\n\nSincerely,\nCustomer Service Team\nsupport@shoponline.com\nShopOnline Inc.\nwww.shoponline.com",
+    "expected_output": {
+      "email": "support@shoponline.com",
+      "company": "ShopOnline Inc.",
+      "website": "www.shoponline.com"
+    }
+  },
+  {
+    "email_content": "Hey,\n\nI'll be joining the team call today at 3 PM.\n\nRegards,\nJohn",
+    "expected_output": {
+      "name": "John"
+    }
+  },
+  {
+    "email_content": "Dear Alice,\n\nThank you for reaching out. I have forwarded your request to the relevant department.\n\nBest,\nRebecca White\nSales Manager\nrebecca.white@salescorp.com\nSalesCorp",
+    "expected_output": {
+      "name": "Rebecca White",
+      "email": "rebecca.white@salescorp.com",
+      "job_title": "Sales Manager",
+      "company": "SalesCorp"
+    }
+  },
+  {
+    "email_content": "Hi,\n\nI'm confirming our lunch meeting for tomorrow at 1 PM.\n\nCheers,\nDavid",
+    "expected_output": {
+      "name": "David"
+    }
+  },
+  {
+    "email_content": "Hello,\n\nPlease review the attached document and let me know your thoughts.\n\nRegards,\nNina Thompson\nHR Manager\nnina.thompson@hrsolutions.com\nHR Solutions",
+    "expected_output": {
+      "name": "Nina Thompson",
+      "email": "nina.thompson@hrsolutions.com",
+      "job_title": "HR Manager",
+      "company": "HR Solutions"
+    }
+  },
+  {
+    "email_content": "Dear all,\n\nI have updated the project plan. Please review and provide your feedback.\n\nBest,\nLauren Adams\nProject Coordinator\nABC Corp.\nPhone: +1 (555) 321-9876\nEmail: lauren.adams@abccorp.com",
+    "expected_output": {
+      "name": "Lauren Adams",
+      "email": "lauren.adams@abccorp.com",
+      "job_title": "Project Coordinator",
+      "company": "ABC Corp.",
+      "phone": "+1 (555) 321-9876"
+    }
+  },
+  {
+    "email_content": "Hi,\n\nCan you send me the contract details?\n\nThanks,\nMark\nMark Robinson\nProcurement Specialist\nmark.robinson@procure.com\nProcure Inc.",
+    "expected_output": {
+      "name": "Mark Robinson",
+      "email": "mark.robinson@procure.com",
+      "job_title": "Procurement Specialist",
+      "company": "Procure Inc."
+    }
+  },
+  {
+    "email_content": "Hello team,\n\nPlease see the attached agenda for tomorrow's meeting.\n\nRegards,\nChris\nChris Martin\nOperations Manager\noperations@logisticsco.com\nLogistics Co.",
+    "expected_output": {
+      "name": "Chris Martin",
+      "email": "operations@logisticsco.com",
+      "job_title": "Operations Manager",
+      "company": "Logistics Co."
+    }
+  }
+]
