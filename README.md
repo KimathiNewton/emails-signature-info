@@ -72,17 +72,17 @@ Essentially, a higher cosine similarity score means the LLM did a better job of 
 
 ## Results For Mistral-large-latest Model in the Initial Prompt:
 
-Mean cosine similarity: 0.975759
-Standard deviation: 0.091883
-Minimum cosine similarity: 0.367639
-Maximum cosine similarity: 1.000000
+* Mean cosine similarity: 0.975759
+* Standard deviation: 0.091883
+* Minimum cosine similarity: 0.367639
+* Maximum cosine similarity: 1.000000
 
 ## Results For Open-mistral-nemo Model in the Initial Prompt:
 
-Mean cosine similarity: 0.863052
-Standard deviation: 0.212798
-Minimum cosine similarity: 0.189032
-Maximum cosine similarity: 1.000000
+* Mean cosine similarity: 0.863052
+* Standard deviation: 0.212798
+* Minimum cosine similarity: 0.189032
+* Maximum cosine similarity: 1.000000
 
 Based on these results, Mistral-large-latest demonstrated superior performance with a higher average cosine similarity and lower standard deviation, indicating greater accuracy and consistency.
 
