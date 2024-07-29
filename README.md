@@ -19,6 +19,56 @@ Text Conversion: Both the extracted signature and the expected signature are con
 Vector Calculation: These numerical representations are then converted into vectors in a high-dimensional space.The cosine of the angle between these two vectors is computed. A value closer to 1 indicates a higher similarity between the two signatures, while a value closer to 0 indicates lower similarity.
 Essentially, a higher cosine similarity score means the LLM did a better job of extracting the correct information from the email.
 
+## Initial Prompt
+The initial prompt was designed to extract key information from email signatures and format it into a structured JSON output. The prompt template included placeholders for common signature elements such as the name, email, phone number, job title, company, address, website, and social media links. The prompt also specified that fields not present in the email should be omitted from the JSON output.
+I formulated this prompt as it provided a clear structure for the LLM to extract signature information. It outlined the desired JSON output format and instructed the model to omit missing fields.
+```
+def build_prompt():
+    prompt_template = """
+    Extract the signature information from the following email content.
+
+    Return the information in JSON format matching the following structure:
+
+    {{
+      "name": "Full Name",
+      "email": "email@example.com",
+      "phone": "Phone number",
+      "job_title": "Job Title",
+      "company": "Company Name",
+      "address": "Full Address",
+      "website": "Website URL",
+      "social_media": {{
+        "linkedin": "LinkedIn URL",
+        "twitter": "Twitter handle",
+        // other social media
+      }}
+    }}
+
+    If a field is not present in the email, omit it from the JSON.
+
+    Email content:{email_content}
+
+    Extracted signature information:
+    """
+    prompt = PromptTemplate(
+        template=prompt_template,
+        input_variables=["email_content"]
+    )
+    return prompt
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
 # Results
 
 ## mistral-large-latest
