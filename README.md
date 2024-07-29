@@ -90,7 +90,7 @@ Based on these results, Mistral-large-latest demonstrated superior performance w
 The initial prompt was refined to provide examples and further clarify the expected output format. The updated prompt included:
 
 * Specific examples of email content and corresponding extracted signatures.
-* Clarification on how to handle missing information in the signature.
+* Clarification on how to handle missing information in the signature, of which it should be ommited from the output.
 
 The addition of examples aimed to provide the model with a clearer understanding of the expected output structure, improving the accuracy of the extracted information, especially in more complex cases.
 ```
@@ -184,4 +184,4 @@ def build_prompt():
 # Conclusion
 The second prompt iteration showed a significant improvement in performance, especially for the Mistral-Large-Latest model. The mean cosine similarity increased, and the standard deviation decreased, indicating more consistent and accurate extractions. The use of examples in the prompt helped the models better understand the expected format and content, leading to fewer errors and more accurate extractions.
 
-Overall, the iterative approach to prompt engineering, with careful evaluation and adjustment, led to a more robust and effective solution for extracting email signature information. The final results demonstrated the effectiveness of the chosen models and the refined prompt in handling a wide range of email signature scenarios.
+Overall, the iterative approach to prompt engineering, with careful evaluation and adjustment, led to a more robust and effective solution for extracting email signature information. The final results demonstrated the effectiveness of the refined prompt in handling a wide range of email signature scenarios.
