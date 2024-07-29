@@ -55,17 +55,15 @@ def build_prompt():
         input_variables=["email_content"]
     )
     return prompt
-
-
-
 ```
-
-
-
-
-
-
-
+# Test Cases
+The test cases included various scenarios to evaluate the prompt's effectiveness in different contexts. These included:
+* Basic Signature: Emails with complete signature details (name, title, company, etc.).
+* Partial Signature: Emails with incomplete signatures, missing one or more elements.
+* No Signature: Emails that do not contain any signature information.
+* Signatures: Emails with additional formatting or multiple contact details.
+* Nested Signatures: Emails with signatures embedded in quoted text from previous conversations.
+The rationale for selecting these test cases was to ensure that the prompt could handle a wide variety of real-world email scenarios, from simple to complex. This helped in assessing the robustness and adaptability of the language models.
 
 
 
