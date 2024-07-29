@@ -85,6 +85,79 @@ Maximum cosine similarity: 1.000000
 
 Based on these results, Mistral-large-latest demonstrated superior performance with a higher average cosine similarity and lower standard deviation, indicating greater accuracy and consistency.
 
+# Prompt Iteration
+The initial prompt was refined to provide examples and further clarify the expected output format. The updated prompt included:
+
+* Specific examples of email content and corresponding extracted signatures.
+* Clarification on how to handle missing information in the signature.
+
+The addition of examples aimed to provide the model with a clearer understanding of the expected output structure, improving the accuracy of the extracted information, especially in more complex cases.
+```
+def build_prompt():
+    prompt_template = """
+    Extract the signature information from the following email content.
+
+    Return the information in JSON format matching the following structure:
+
+    {{
+      "name": "Full Name",
+      "email": "email@example.com",
+      "phone": "Phone number",
+      "job_title": "Job Title",
+      "company": "Company Name",
+      "address": "Full Address",
+      "website": "Website URL",
+      "social_media": {{
+        "linkedin": "LinkedIn URL",
+        "twitter": "Twitter handle",
+        // other social media
+      }}
+    }}
+
+    If a field is not present in the email, omit it from the JSON.
+
+    Examples:
+    Email content: "Best, John Doe"
+    Extracted signature information: {{
+      "name": "John Doe"
+    }}
+
+    Email content: "Best regards, Michael Brown Project Manager XYZ Solutions michael.brown@xyzsolutions.com"
+    Extracted signature information: {{
+      "name": "Michael Brown",
+      "email": "michael.brown@xyzsolutions.com",
+      "job_title": "Project Manager",
+      "company": "XYZ Solutions"
+    }}
+
+    Email content: "Cheers, Kevin Lee Senior Developer (555) 987-6543"
+    Extracted signature information: {{
+      "name": "Kevin Lee",
+      "job_title": "Senior Developer",
+      "phone": "(555) 987-6543"
+    }}
+
+    Email content: "Sincerely, Emily Rogers Marketing Specialist emily.rogers@marketingco.com MarketingCo"
+    Extracted signature information: {{
+      "name": "Emily Rogers",
+      "email": "emily.rogers@marketingco.com",
+      "job_title": "Marketing Specialist",
+      "company": "MarketingCo"
+    }}
+
+    Email content:{email_content}
+
+    Extracted signature information:
+    """
+    prompt = PromptTemplate(
+        template=prompt_template,
+        input_variables=["email_content"]
+    )
+    return prompt
+
+```
+
+
 
 
 
