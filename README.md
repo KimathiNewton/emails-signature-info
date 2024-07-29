@@ -1,23 +1,14 @@
 # Email Signature Extraction and Structuring with LLMs
 
-## Overview
-This project aims to evaluate and compare two different large language models (LLMs) for the task of extracting email signature information and structuring it into a JSON format. The LLMs evaluated are Mistral-large-latest and Open-mistral-nemo . 
-The goal of this project is to:
-* Create prompts that can extract email signature information.
-* Structure the extracted information into a predefined JSON format.
-* Generate test cases to cover a range of email scenarios.
-* Evaluate and iterate on prompts to improve extraction accuracy.
-* Compare the performance of two LLMs: mistral-large-latest and open-mistral-nemo
+# Overview
+This project aims to evaluate and compare the performance of two large language models (LLMs) in the task of extracting email signature information and formatting it into a structured JSON format. The selected LLMs for this task are the Mistral-Large-Latest model and the Open-Mistral-Nemo model. The project involves designing and iterating prompts, generating and evaluating test cases, and analyzing the models' performance based on the extracted information's accuracy and consistency.
 
-# Evaluation and Results
-## Cosine Similarity
-The evaluation is based on cosine similarity between the extracted data and reference signatures i.e the expected output. 
-Cosine similarity is used in this context to measure the semantic similarity between the extracted email signature and the expected (ground truth) signature.
-It compares the extracted email signatures with the expected outputs. A higher cosine similarity indicates a better match between the extracted and expected information.
-## How it works:
-Text Conversion: Both the extracted signature and the expected signature are converted into numerical representations (vectors).The sentence_transformers library is used to convert text into numerical embeddings.
-Vector Calculation: These numerical representations are then converted into vectors in a high-dimensional space.The cosine of the angle between these two vectors is computed. A value closer to 1 indicates a higher similarity between the two signatures, while a value closer to 0 indicates lower similarity.
-Essentially, a higher cosine similarity score means the LLM did a better job of extracting the correct information from the email.
+## Objective
+The primary objective of this project is to develop a reliable method for extracting structured information from email signatures using LLMs. This involves:
+
+1. Prompt Engineering: Creating and refining prompts that guide the LLMs to extract relevant information accurately.
+2. Test Case Generation: Designing a comprehensive set of test cases that represent various real-world email scenarios, including simple, partial, complex, and nested signatures.
+3. Model Evaluation: Comparing the performance of the two LLMs based on their ability to correctly identify and format email signature information.
 
 ## Initial Prompt
 The initial prompt was designed to extract key information from email signatures and format it into a structured JSON output. The prompt template included placeholders for common signature elements such as the name, email, phone number, job title, company, address, website, and social media links. The prompt also specified that fields not present in the email should be omitted from the JSON output.
@@ -68,6 +59,16 @@ The rationale for selecting these test cases was to ensure that the prompt could
 
 # Evaluation Metrics
 The model's performance was evaluated using cosine similarity between the extracted signature and the expected ground truth output. Cosine similarity measures the similarity between two vectors, with a higher value indicating a better alignment between the predicted and actual signatures.
+## Cosine Similarity
+The evaluation is based on cosine similarity between the extracted data and reference signatures i.e the expected output. 
+Cosine similarity is used in this context to measure the semantic similarity between the extracted email signature and the expected (ground truth) signature.
+It compares the extracted email signatures with the expected outputs. A higher cosine similarity indicates a better match between the extracted and expected information.
+## How it works:
+Text Conversion: Both the extracted signature and the expected signature are converted into numerical representations (vectors).The sentence_transformers library is used to convert text into numerical embeddings.
+
+Vector Calculation: These numerical representations are then converted into vectors in a high-dimensional space.The cosine of the angle between these two vectors is computed. A value closer to 1 indicates a higher similarity between the two signatures, while a value closer to 0 indicates lower similarity.
+Essentially, a higher cosine similarity score means the LLM did a better job of extracting the correct information from the email.
+
 
 ## Results For Mistral-large-latest Model in the Initial Prompt:
 
