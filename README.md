@@ -156,33 +156,31 @@ def build_prompt():
     return prompt
 
 ```
+# Second Prompt Evaluation
 
+## Mistral-Large-Latest Model Results (After Iteration):
 
+* Count: 78
+* Mean: 0.990927
+* Standard Deviation: 0.018777
+* Minimum: 0.927664
+* 25th Percentile: 1.000000
+* Median (50th Percentile): 1.000000
+* 75th Percentile: 1.000000
+* Maximum: 1.000000
 
+## Open-Mistral-Nemo Model Results (After Iteration):
 
+* Count: 78
+* Mean: 0.882481
+* Standard Deviation: 0.229348
+* Minimum: 0.257969
+* 25th Percentile: 0.948787
+* Median (50th Percentile): 1.000000
+* 75th Percentile: 1.000000
+* Maximum: 1.000000
 
-# Results
+# Conclusion
+The second prompt iteration showed a significant improvement in performance, especially for the Mistral-Large-Latest model. The mean cosine similarity increased, and the standard deviation decreased, indicating more consistent and accurate extractions. The use of examples in the prompt helped the models better understand the expected format and content, leading to fewer errors and more accurate extractions.
 
-## mistral-large-latest
-The results with the initial prompt:
-The mean score improved from 0.976 to 0.991, indicating that the overall accuracy of the extracted signatures improved with the refined prompt.
-
-Reduced Variability: The standard deviation decreased from 0.092 to 0.019, showing that the performance became more consistent after prompt improvement.
-
-Higher Minimum Score: The minimum score increased from 0.368 to 0.928, which means the lowest performing cases improved significantly.
-
-The improvements to the prompt, including additional examples, have significantly enhanced the performance of the model. The reduced variability and increased mean score suggest that the refined prompt leads to more accurate and consistent extraction of signature information.
-
-open-mistral-nemo
-The mean score improved from 0.863 to 0.882, indicating an enhancement in overall performance after prompt refinement.
-
-Increased Variability: The standard deviation increased from 0.213 to 0.229, suggesting that while the average performance improved, there was more variability in the results.
-
-After adding examples to the prompt, the open-mistral-nemo model showed improved average performance and higher minimum scores. However, the increase in standard deviation suggests more variability in the results. This could indicate that while some cases improved, others might have experienced less consistency.
-
-Conclusion
-Mistral-large-latest showed significant improvement after prompt iteration, with mean cosine similarity increasing from 0.976 to 0.991 and reduced variability.
-
-Open-mistral-nemo also showed improvement, with mean cosine similarity increasing from 0.863 to 0.882, but with increased variability.
-
-Both models maintained perfect scores for some cases before and after prompt iteration.
+Overall, the iterative approach to prompt engineering, with careful evaluation and adjustment, led to a more robust and effective solution for extracting email signature information. The final results demonstrated the effectiveness of the chosen models and the refined prompt in handling a wide range of email signature scenarios.
