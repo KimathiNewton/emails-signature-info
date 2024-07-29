@@ -63,7 +63,28 @@ The test cases included various scenarios to evaluate the prompt's effectiveness
 * No Signature: Emails that do not contain any signature information.
 * Signatures: Emails with additional formatting or multiple contact details.
 * Nested Signatures: Emails with signatures embedded in quoted text from previous conversations.
+
 The rationale for selecting these test cases was to ensure that the prompt could handle a wide variety of real-world email scenarios, from simple to complex. This helped in assessing the robustness and adaptability of the language models.
+
+# Evaluation Metrics
+The model's performance was evaluated using cosine similarity between the extracted signature and the expected ground truth output. Cosine similarity measures the similarity between two vectors, with a higher value indicating a better alignment between the predicted and actual signatures.
+
+## Results For Mistral-large-latest Model in the Initial Prompt:
+
+Mean cosine similarity: 0.975759
+Standard deviation: 0.091883
+Minimum cosine similarity: 0.367639
+Maximum cosine similarity: 1.000000
+
+## Results For Open-mistral-nemo Model in the Initial Prompt:
+
+Mean cosine similarity: 0.863052
+Standard deviation: 0.212798
+Minimum cosine similarity: 0.189032
+Maximum cosine similarity: 1.000000
+
+Based on these results, Mistral-large-latest demonstrated superior performance with a higher average cosine similarity and lower standard deviation, indicating greater accuracy and consistency.
+
 
 
 
