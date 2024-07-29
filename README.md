@@ -1,1 +1,46 @@
-# emails-signature-info
+# Email Signature Extraction and Structuring with LLMs
+
+## Overview
+This project aims to evaluate and compare two different large language models (LLMs) for the task of extracting email signature information and structuring it into a JSON format. The LLMs evaluated are Mistral-large-latest and Open-mistral-nemo . 
+The goal of this project is to:
+* Create prompts that can extract email signature information.
+* Structure the extracted information into a predefined JSON format.
+* Generate test cases to cover a range of email scenarios.
+* Evaluate and iterate on prompts to improve extraction accuracy.
+* Compare the performance of two LLMs: mistral-large-latest and open-mistral-nemo
+
+# Evaluation and Results
+## Cosine Similarity
+The evaluation is based on cosine similarity between the extracted data and reference signatures i.e the expected output. 
+Cosine similarity is used in this context to measure the semantic similarity between the extracted email signature and the expected (ground truth) signature.
+It compares the extracted email signatures with the expected outputs. A higher cosine similarity indicates a better match between the extracted and expected information.
+## How it works:
+Text Conversion: Both the extracted signature and the expected signature are converted into numerical representations (vectors).The sentence_transformers library is used to convert text into numerical embeddings.
+Vector Calculation: These numerical representations are then converted into vectors in a high-dimensional space.The cosine of the angle between these two vectors is computed. A value closer to 1 indicates a higher similarity between the two signatures, while a value closer to 0 indicates lower similarity.
+Essentially, a higher cosine similarity score means the LLM did a better job of extracting the correct information from the email.
+
+# Results
+
+## mistral-large-latest
+The results with the initial prompt:
+The mean score improved from 0.976 to 0.991, indicating that the overall accuracy of the extracted signatures improved with the refined prompt.
+
+Reduced Variability: The standard deviation decreased from 0.092 to 0.019, showing that the performance became more consistent after prompt improvement.
+
+Higher Minimum Score: The minimum score increased from 0.368 to 0.928, which means the lowest performing cases improved significantly.
+
+The improvements to the prompt, including additional examples, have significantly enhanced the performance of the model. The reduced variability and increased mean score suggest that the refined prompt leads to more accurate and consistent extraction of signature information.
+
+open-mistral-nemo
+The mean score improved from 0.863 to 0.882, indicating an enhancement in overall performance after prompt refinement.
+
+Increased Variability: The standard deviation increased from 0.213 to 0.229, suggesting that while the average performance improved, there was more variability in the results.
+
+After adding examples to the prompt, the open-mistral-nemo model showed improved average performance and higher minimum scores. However, the increase in standard deviation suggests more variability in the results. This could indicate that while some cases improved, others might have experienced less consistency.
+
+Conclusion
+Mistral-large-latest showed significant improvement after prompt iteration, with mean cosine similarity increasing from 0.976 to 0.991 and reduced variability.
+
+Open-mistral-nemo also showed improvement, with mean cosine similarity increasing from 0.863 to 0.882, but with increased variability.
+
+Both models maintained perfect scores for some cases before and after prompt iteration.
