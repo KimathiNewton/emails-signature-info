@@ -1,0 +1,188 @@
+{
+  "0": {
+    "original_email": "Hi team,  Please find attached the monthly report. It contains a detailed breakdown of our performance metrics, sales figures, and key accomplishments for the month. I've also included some insights and recommendations based on the data.  Let me know if you have any questions or need further clarification on any of the points mentioned.  Best, Sara",
+    "expected_output": {
+      "name": "Sara"
+    },
+    "extracted_signature": {
+      "name": "Sara",
+      "email": "sara@example.com"
+    }
+  },
+  "2": {
+    "original_email": "Hi everyone,  Just a quick note to let you know I'll be out of the office next week. During my absence, please reach out to Jane for any urgent matters. She will be handling my responsibilities and can assist you with any issues that arise.  I'll be checking my emails periodically and will try to respond to anything urgent as soon as I can.  Cheers, Kevin Lee  Senior Developer (555) 987-6543",
+    "expected_output": {
+      "name": "Kevin Lee",
+      "job_title": "Senior Developer",
+      "phone": "(555) 987-6543"
+    },
+    "extracted_signature": "{\n  \"name\": \"Kevin Lee\",\n  \"email\": \"kevin.lee@example.com\", // Assuming the email is the same as the sender's email\n  \"phone\": \"(555) 987-6543\",\n  \"job_title\": \"Senior Developer\",\n  \"company\": \"\", // Not provided in the email content\n  \"address\": \"\", // Not provided in the email content\n  \"website\": \"\", // Not provided in the email content\n  \"social_media\": {} // Not provided in the email content\n}"
+  },
+  "3": {
+    "original_email": "Hello,  Thank you for your interest in our services. We will get back to you shortly with more details. Our team is currently reviewing your request and will provide you with the necessary information and next steps.  If you have any specific questions in the meantime, feel free to reach out to me directly.  Best, Emily Emily Rogers Marketing Specialist emily.rogers@marketingco.com MarketingCo",
+    "expected_output": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@marketingco.com",
+      "job_title": "Marketing Specialist",
+      "company": "MarketingCo"
+    },
+    "extracted_signature": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@marketingco.com",
+      "job_title": "Marketing Specialist",
+      "company": "MarketingCo"
+    }
+  },
+  "4": {
+    "original_email": "Hi,  Can you please send me the latest sales figures? We need them for the upcoming board meeting on Friday. It's important that we have the most up-to-date data to present our progress and set new targets.  Thanks in advance for your prompt response.  Thanks, Alan",
+    "expected_output": {
+      "name": "Alan"
+    },
+    "extracted_signature": {
+      "name": "Alan",
+      "email": "alan@example.com",
+      "phone": "",
+      "job_title": "",
+      "company": "",
+      "address": "",
+      "website": "",
+      "social_media": {}
+    }
+  },
+  "5": {
+    "original_email": "Dear Customer,  Your order has been shipped and will arrive within 5-7 business days. You can track your order using the tracking number provided in this email. If you have any questions or concerns about your order, please don't hesitate to contact our support team.  Thank you for shopping with us. We appreciate your business and hope you enjoy your purchase.  Sincerely, Customer Service Team support@shoponline.com ShopOnline Inc. www.shoponline.com",
+    "expected_output": {
+      "email": "support@shoponline.com",
+      "company": "ShopOnline Inc.",
+      "website": "www.shoponline.com"
+    },
+    "extracted_signature": {
+      "name": "Customer Service Team",
+      "email": "support@shoponline.com",
+      "company": "ShopOnline Inc.",
+      "website": "www.shoponline.com"
+    }
+  },
+  "8": {
+    "original_email": "Hi,  I'm confirming our lunch meeting for tomorrow at 1 PM. I'll make a reservation at our usual spot. If you have any preferences or dietary restrictions, please let me know in advance.  Looking forward to catching up and discussing our latest project.  Cheers, David",
+    "expected_output": {
+      "name": "David"
+    },
+    "extracted_signature": {
+      "name": "David",
+      "email": "not provided",
+      "phone": "not provided",
+      "job_title": "not provided",
+      "company": "not provided",
+      "address": "not provided",
+      "website": "not provided",
+      "social_media": {}
+    }
+  },
+  "10": {
+    "original_email": "Dear all,  I have updated the project plan. Please review and provide your feedback. The updated plan includes revised timelines and additional resources allocated to the project. Your insights and suggestions will be invaluable in ensuring the plan is comprehensive and achievable.  Best, Lauren Adams Project Coordinator ABC Corp. Phone: +1 (555) 321-9876 Email: lauren.adams@abccorp.com",
+    "expected_output": {
+      "name": "Lauren Adams",
+      "email": "lauren.adams@abccorp.com",
+      "job_title": "Project Coordinator",
+      "company": "ABC Corp.",
+      "phone": "+1 (555) 321-9876"
+    },
+    "extracted_signature": {
+      "name": "Lauren Adams",
+      "email": "lauren.adams@abccorp.com",
+      "phone": "+1 (555) 321-9876",
+      "job_title": "Project Coordinator",
+      "company": "ABC Corp."
+    }
+  },
+  "12": {
+    "original_email": "Hello team,  Please see the attached agenda for tomorrow's meeting. We will be discussing our current operational challenges and brainstorming solutions. Your attendance and participation are important as we work towards improving our processes.  Regards, Chris Chris Martin Operations Manager operations@logisticsco.com Logistics Co.",
+    "expected_output": {
+      "name": "Chris Martin",
+      "email": "operations@logisticsco.com",
+      "job_title": "Operations Manager",
+      "company": "Logistics Co."
+    },
+    "extracted_signature": {
+      "name": "Chris Martin",
+      "email": "operations@logisticsco.com",
+      "job_title": "Operations Manager",
+      "company": "Logistics Co."
+    }
+  },
+  "13": {
+    "original_email": "Hi John,  Thanks for the update. I'll review the documents and get back to you by the end of the day. I'm particularly interested in the sections on the new compliance regulations and how they might impact our current processes. If I have any questions or need further clarification, I'll reach out to you.  Best, Angela",
+    "expected_output": {
+      "name": "Angela"
+    },
+    "extracted_signature": {
+      "name": "Angela",
+      "email": "angela@example.com"
+    }
+  },
+  "16": {
+    "original_email": "Hi,  Just wanted to remind you about the client meeting tomorrow at 11 AM. Please come prepared with the latest sales figures and your progress updates on the current projects. It's important that we present a unified and informed front to our clients.  Thanks, Kim",
+    "expected_output": {
+      "name": "Kim"
+    },
+    "extracted_signature": {
+      "name": "Kim",
+      "email": "kim@example.com",
+      "phone": "",
+      "job_title": "",
+      "company": "",
+      "address": "",
+      "website": "",
+      "social_media": {}
+    }
+  },
+  "60": {
+    "original_email": "Hi Sarah,  I hope you had a great weekend. I wanted to follow up on the budget proposal we discussed during our last meeting. I have attached the revised version for your review. Could we schedule a time this week to go over any final adjustments? Let me know your availability.  Best regards, James",
+    "expected_output": {
+      "name": "James"
+    },
+    "extracted_signature": {
+      "name": "James",
+      "email": "james@example.com"
+    }
+  },
+  "67": {
+    "original_email": "Hello Dr. Smith,  I hope this message finds you well. I am reaching out to confirm your appointment with Dr. Jameson on Wednesday, August 5th, at 10 AM. Please let us know if you need to reschedule or have any special requests for your visit. We look forward to seeing you soon.  Best regards, Anna Green Receptionist anna.green@healthclinic.com Health Clinic",
+    "expected_output": {
+      "name": "Anna Green",
+      "email": "anna.green@healthclinic.com",
+      "job_title": "Receptionist",
+      "company": "Health Clinic"
+    },
+    "extracted_signature": {
+      "name": "Anna Green",
+      "email": "anna.green@healthclinic.com",
+      "job_title": "Receptionist",
+      "company": "Health Clinic"
+    }
+  },
+  "73": {
+    "original_email": "Hi all,  As we approach the end of the quarter, I wanted to remind everyone to submit their performance reviews and update their project statuses in the system. Your timely submissions are crucial for our quarterly reporting. If you have any questions or need assistance, please reach out to the HR department.  Thanks, Jennifer",
+    "expected_output": {
+      "name": "Jennifer"
+    },
+    "extracted_signature": "Based on the provided email content, here's the extracted signature information in JSON format:\n\n```json\n{\n  \"name\": \"Jennifer\",\n  \"email\": \"jennifer@example.com\", // Assuming the sender's email is 'jennifer@example.com'\n  \"job_title\": \"HR Department\",\n  \"company\": \"Your Company Name\"\n}\n```\n\nNote that the phone number, full address, website, and social media information are not present in the email content, so they are omitted from the JSON. Also, the email address is assumed based on the common practice of using the sender's name as the email username."
+  },
+  "76": {
+    "original_email": "Hi Team,  I hope this email finds you well. As we prepare for the upcoming trade show, I wanted to share the finalized schedule and booth assignments. Please review the attached document and familiarize yourself with your responsibilities. If you have any questions or need further information, don't hesitate to reach out.  Best, Tom",
+    "expected_output": {
+      "name": "Tom"
+    },
+    "extracted_signature": {
+      "name": "Tom",
+      "email": "tom@example.com",
+      "phone": "",
+      "job_title": "",
+      "company": "",
+      "address": "",
+      "website": "",
+      "social_media": {}
+    }
+  }
+}

@@ -1,0 +1,1012 @@
+{
+  "0": {
+    "original_email": "Hi team,  Please find attached the monthly report. It contains a detailed breakdown of our performance metrics, sales figures, and key accomplishments for the month. I've also included some insights and recommendations based on the data.  Let me know if you have any questions or need further clarification on any of the points mentioned.  Best, Sara",
+    "expected_output": {
+      "name": "Sara"
+    },
+    "extracted_signature": {
+      "name": "Sara"
+    }
+  },
+  "1": {
+    "original_email": "Dear Team,  This is a reminder for our upcoming meeting tomorrow at 10 AM. We will be discussing the project milestones, timelines, and any potential roadblocks we might face. Your inputs and feedback will be crucial for the success of our project.  Please ensure that you have reviewed the agenda and come prepared with your updates and any questions you might have.  Best regards, Michael Brown Project Manager XYZ Solutions michael.brown@xyzsolutions.com",
+    "expected_output": {
+      "name": "Michael Brown",
+      "email": "michael.brown@xyzsolutions.com",
+      "job_title": "Project Manager",
+      "company": "XYZ Solutions"
+    },
+    "extracted_signature": {
+      "name": "Michael Brown",
+      "email": "michael.brown@xyzsolutions.com",
+      "job_title": "Project Manager",
+      "company": "XYZ Solutions"
+    }
+  },
+  "2": {
+    "original_email": "Hi everyone,  Just a quick note to let you know I'll be out of the office next week. During my absence, please reach out to Jane for any urgent matters. She will be handling my responsibilities and can assist you with any issues that arise.  I'll be checking my emails periodically and will try to respond to anything urgent as soon as I can.  Cheers, Kevin Lee  Senior Developer (555) 987-6543",
+    "expected_output": {
+      "name": "Kevin Lee",
+      "job_title": "Senior Developer",
+      "phone": "(555) 987-6543"
+    },
+    "extracted_signature": {
+      "name": "Kevin Lee",
+      "job_title": "Senior Developer",
+      "phone": "(555) 987-6543"
+    }
+  },
+  "3": {
+    "original_email": "Hello,  Thank you for your interest in our services. We will get back to you shortly with more details. Our team is currently reviewing your request and will provide you with the necessary information and next steps.  If you have any specific questions in the meantime, feel free to reach out to me directly.  Best, Emily Emily Rogers Marketing Specialist emily.rogers@marketingco.com MarketingCo",
+    "expected_output": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@marketingco.com",
+      "job_title": "Marketing Specialist",
+      "company": "MarketingCo"
+    },
+    "extracted_signature": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@marketingco.com",
+      "job_title": "Marketing Specialist",
+      "company": "MarketingCo"
+    }
+  },
+  "4": {
+    "original_email": "Hi,  Can you please send me the latest sales figures? We need them for the upcoming board meeting on Friday. It's important that we have the most up-to-date data to present our progress and set new targets.  Thanks in advance for your prompt response.  Thanks, Alan",
+    "expected_output": {
+      "name": "Alan"
+    },
+    "extracted_signature": {
+      "name": "Alan"
+    }
+  },
+  "5": {
+    "original_email": "Dear Customer,  Your order has been shipped and will arrive within 5-7 business days. You can track your order using the tracking number provided in this email. If you have any questions or concerns about your order, please don't hesitate to contact our support team.  Thank you for shopping with us. We appreciate your business and hope you enjoy your purchase.  Sincerely, Customer Service Team support@shoponline.com ShopOnline Inc. www.shoponline.com",
+    "expected_output": {
+      "email": "support@shoponline.com",
+      "company": "ShopOnline Inc.",
+      "website": "www.shoponline.com"
+    },
+    "extracted_signature": {
+      "name": "Customer Service Team",
+      "email": "support@shoponline.com",
+      "company": "ShopOnline Inc.",
+      "website": "www.shoponline.com"
+    }
+  },
+  "6": {
+    "original_email": "Hey,  I'll be joining the team call today at 3 PM. I have a few updates to share regarding the current project and some new ideas I'd like to discuss. Looking forward to catching up with everyone and hearing your thoughts.  Regards, John",
+    "expected_output": {
+      "name": "John"
+    },
+    "extracted_signature": {
+      "name": "John"
+    }
+  },
+  "7": {
+    "original_email": "Dear Alice,  Thank you for reaching out. I have forwarded your request to the relevant department, and they will get back to you shortly. In the meantime, if you need any additional information or assistance, please let me know.  Best, Rebecca White Sales Manager rebecca.white@salescorp.com SalesCorp",
+    "expected_output": {
+      "name": "Rebecca White",
+      "email": "rebecca.white@salescorp.com",
+      "job_title": "Sales Manager",
+      "company": "SalesCorp"
+    },
+    "extracted_signature": {
+      "name": "Rebecca White",
+      "email": "rebecca.white@salescorp.com",
+      "job_title": "Sales Manager",
+      "company": "SalesCorp"
+    }
+  },
+  "8": {
+    "original_email": "Hi,  I'm confirming our lunch meeting for tomorrow at 1 PM. I'll make a reservation at our usual spot. If you have any preferences or dietary restrictions, please let me know in advance.  Looking forward to catching up and discussing our latest project.  Cheers, David",
+    "expected_output": {
+      "name": "David"
+    },
+    "extracted_signature": {
+      "name": "David"
+    }
+  },
+  "9": {
+    "original_email": "Hello,  Please review the attached document and let me know your thoughts. It outlines the new HR policies we are considering implementing next quarter. Your feedback is crucial to ensure that these policies meet the needs of all employees.  Regards, Nina Thompson HR Manager nina.thompson@hrsolutions.com HR Solutions",
+    "expected_output": {
+      "name": "Nina Thompson",
+      "email": "nina.thompson@hrsolutions.com",
+      "job_title": "HR Manager",
+      "company": "HR Solutions"
+    },
+    "extracted_signature": {
+      "name": "Nina Thompson",
+      "email": "nina.thompson@hrsolutions.com",
+      "job_title": "HR Manager",
+      "company": "HR Solutions"
+    }
+  },
+  "10": {
+    "original_email": "Dear all,  I have updated the project plan. Please review and provide your feedback. The updated plan includes revised timelines and additional resources allocated to the project. Your insights and suggestions will be invaluable in ensuring the plan is comprehensive and achievable.  Best, Lauren Adams Project Coordinator ABC Corp. Phone: +1 (555) 321-9876 Email: lauren.adams@abccorp.com",
+    "expected_output": {
+      "name": "Lauren Adams",
+      "email": "lauren.adams@abccorp.com",
+      "job_title": "Project Coordinator",
+      "company": "ABC Corp.",
+      "phone": "+1 (555) 321-9876"
+    },
+    "extracted_signature": {
+      "name": "Lauren Adams",
+      "email": "lauren.adams@abccorp.com",
+      "phone": "+1 (555) 321-9876",
+      "job_title": "Project Coordinator",
+      "company": "ABC Corp."
+    }
+  },
+  "11": {
+    "original_email": "Hi,  Can you send me the contract details? We need to review them before finalizing the agreement with our new supplier. Please ensure all the terms and conditions are included.  Thanks, Mark Mark Robinson Procurement Specialist mark.robinson@procure.com Procure Inc.",
+    "expected_output": {
+      "name": "Mark Robinson",
+      "email": "mark.robinson@procure.com",
+      "job_title": "Procurement Specialist",
+      "company": "Procure Inc."
+    },
+    "extracted_signature": {
+      "name": "Mark Robinson",
+      "email": "mark.robinson@procure.com",
+      "job_title": "Procurement Specialist",
+      "company": "Procure Inc."
+    }
+  },
+  "12": {
+    "original_email": "Hello team,  Please see the attached agenda for tomorrow's meeting. We will be discussing our current operational challenges and brainstorming solutions. Your attendance and participation are important as we work towards improving our processes.  Regards, Chris Chris Martin Operations Manager operations@logisticsco.com Logistics Co.",
+    "expected_output": {
+      "name": "Chris Martin",
+      "email": "operations@logisticsco.com",
+      "job_title": "Operations Manager",
+      "company": "Logistics Co."
+    },
+    "extracted_signature": {
+      "name": "Chris Martin",
+      "email": "operations@logisticsco.com",
+      "job_title": "Operations Manager",
+      "company": "Logistics Co."
+    }
+  },
+  "13": {
+    "original_email": "Hi John,  Thanks for the update. I'll review the documents and get back to you by the end of the day. I'm particularly interested in the sections on the new compliance regulations and how they might impact our current processes. If I have any questions or need further clarification, I'll reach out to you.  Best, Angela",
+    "expected_output": {
+      "name": "Angela"
+    },
+    "extracted_signature": {
+      "name": "Angela"
+    }
+  },
+  "14": {
+    "original_email": "Dear Colleagues,  Please be reminded of the upcoming training session on Friday at 2 PM. This session will cover the latest updates on our compliance procedures and provide hands-on training with the new software tools we will be using. It is crucial that everyone attends as these changes will significantly impact our day-to-day operations.  Warm regards, Sophie Johnson Learning and Development Manager sophie.johnson@learningco.com LearningCo",
+    "expected_output": {
+      "name": "Sophie Johnson",
+      "email": "sophie.johnson@learningco.com",
+      "job_title": "Learning and Development Manager",
+      "company": "LearningCo"
+    },
+    "extracted_signature": {
+      "name": "Sophie Johnson",
+      "email": "sophie.johnson@learningco.com",
+      "job_title": "Learning and Development Manager",
+      "company": "LearningCo"
+    }
+  },
+  "15": {
+    "original_email": "Hello,  I am writing to follow up on our previous conversation about the new marketing strategy. I have compiled some additional data and insights that I believe will be valuable as we finalize our approach. It would be great to schedule a meeting next week to review these updates and discuss any further adjustments we might need to make.  Best regards, Mike Davis Marketing Director mike.davis@strategymarketing.com Strategy Marketing Inc. Phone: +1 (555) 654-3210 Website: www.strategymarketing.com",
+    "expected_output": {
+      "name": "Mike Davis",
+      "email": "mike.davis@strategymarketing.com",
+      "job_title": "Marketing Director",
+      "company": "Strategy Marketing Inc.",
+      "phone": "+1 (555) 654-3210",
+      "website": "www.strategymarketing.com"
+    },
+    "extracted_signature": {
+      "name": "Mike Davis",
+      "email": "mike.davis@strategymarketing.com",
+      "phone": "+1 (555) 654-3210",
+      "job_title": "Marketing Director",
+      "company": "Strategy Marketing Inc.",
+      "website": "www.strategymarketing.com"
+    }
+  },
+  "16": {
+    "original_email": "Hi,  Just wanted to remind you about the client meeting tomorrow at 11 AM. Please come prepared with the latest sales figures and your progress updates on the current projects. It's important that we present a unified and informed front to our clients.  Thanks, Kim",
+    "expected_output": {
+      "name": "Kim"
+    },
+    "extracted_signature": {
+      "name": "Kim"
+    }
+  },
+  "17": {
+    "original_email": "Dear Team,  Attached is the updated project timeline. Please review it and share your feedback. The new timeline includes adjustments to the deliverables and deadlines based on our recent discussions. Your input is essential to ensure we stay on track and meet our project goals.  Kind regards, Amanda Amanda Lee Senior Project Manager amanda.lee@projects.com Projects Ltd.",
+    "expected_output": {
+      "name": "Amanda Lee",
+      "email": "amanda.lee@projects.com",
+      "job_title": "Senior Project Manager",
+      "company": "Projects Ltd."
+    },
+    "extracted_signature": {
+      "name": "Amanda Lee",
+      "email": "amanda.lee@projects.com",
+      "job_title": "Senior Project Manager",
+      "company": "Projects Ltd."
+    }
+  },
+  "18": {
+    "original_email": "Hello,  Thank you for your application. We will review it and get back to you soon. In the meantime, if you have any questions or need further information about the position, please do not hesitate to contact us. We appreciate your interest in joining our team.  Best regards, HR Team hr@companyxyz.com Company XYZ www.companyxyz.com",
+    "expected_output": {
+      "email": "hr@companyxyz.com",
+      "company": "Company XYZ",
+      "website": "www.companyxyz.com"
+    },
+    "extracted_signature": {
+      "name": "HR Team",
+      "email": "hr@companyxyz.com",
+      "company": "Company XYZ",
+      "website": "www.companyxyz.com"
+    }
+  },
+  "19": {
+    "original_email": "Hi all,  Please join me in welcoming our new team member, Jane Doe. Jane will be joining us as a Senior Analyst and brings with her a wealth of experience in data analytics and process optimization. I'm confident she will be a valuable addition to our team. Let's make her feel welcome and support her as she gets up to speed.  Regards, Peter",
+    "expected_output": {
+      "name": "Peter"
+    },
+    "extracted_signature": {
+      "name": "Peter"
+    }
+  },
+  "20": {
+    "original_email": "Dear Customer,  We have received your request and will process it shortly. You can expect a response from our team within the next 24-48 hours. If you have any urgent concerns, please feel free to reach out to us directly at the contact information provided below.  Sincerely, Customer Support support@serviceprovider.com Service Provider Inc. Phone: +1 (555) 987-6543 Website: www.serviceprovider.com",
+    "expected_output": {
+      "email": "support@serviceprovider.com",
+      "company": "Service Provider Inc.",
+      "phone": "+1 (555) 987-6543",
+      "website": "www.serviceprovider.com"
+    },
+    "extracted_signature": {
+      "name": "Customer Support",
+      "email": "support@serviceprovider.com",
+      "phone": "+1 (555) 987-6543",
+      "company": "Service Provider Inc.",
+      "website": "www.serviceprovider.com"
+    }
+  },
+  "21": {
+    "original_email": "Hi team,  The deadline for the project submission is next Monday. Please ensure that all your deliverables are completed and submitted by the end of the day on Friday so that we have time for a final review over the weekend. If you foresee any issues meeting this deadline, let me know as soon as possible so we can address them.  Best, Alex",
+    "expected_output": {
+      "name": "Alex"
+    },
+    "extracted_signature": {
+      "name": "Alex"
+    }
+  },
+  "22": {
+    "original_email": "Hello,  Please find below the details of the upcoming event. We have a packed schedule with keynote speeches, breakout sessions, and networking opportunities. Make sure to review the agenda and plan your day accordingly. If you have any questions or need further information, feel free to reach out to me.  Thank you, Grace Thompson Event Coordinator grace.thompson@events.com Events Corp. Phone: +1 (555) 432-1098 Website: www.events.com LinkedIn: linkedin.com/in/gracethompson",
+    "expected_output": {
+      "name": "Grace Thompson",
+      "email": "grace.thompson@events.com",
+      "job_title": "Event Coordinator",
+      "company": "Events Corp.",
+      "phone": "+1 (555) 432-1098",
+      "website": "www.events.com",
+      "social_media": {
+        "linkedin": "linkedin.com/in/gracethompson"
+      }
+    },
+    "extracted_signature": {
+      "name": "Grace Thompson",
+      "email": "grace.thompson@events.com",
+      "phone": "+1 (555) 432-1098",
+      "job_title": "Event Coordinator",
+      "company": "Events Corp.",
+      "website": "www.events.com",
+      "social_media": {
+        "linkedin": "linkedin.com/in/gracethompson"
+      }
+    }
+  },
+  "23": {
+    "original_email": "Hi,  I would like to schedule a call to discuss the proposal. Please let me know your availability over the next few days, and we can set up a time that works for both of us. I have a few ideas and questions that I think will help us move forward with this project.  Thanks, Ben",
+    "expected_output": {
+      "name": "Ben"
+    },
+    "extracted_signature": {
+      "name": "Ben"
+    }
+  },
+  "24": {
+    "original_email": "Dear Team,  Please review the attached documents and provide your feedback by end of day. These documents include the latest product specifications and market analysis that will be crucial for our upcoming launch. Your insights and comments are essential to ensure we have covered all bases and are fully prepared.  Best regards, Linda Linda Martinez Product Manager linda.martinez@productco.com ProductCo Inc.",
+    "expected_output": {
+      "name": "Linda Martinez",
+      "email": "linda.martinez@productco.com",
+      "job_title": "Product Manager",
+      "company": "ProductCo Inc."
+    },
+    "extracted_signature": {
+      "name": "Linda Martinez",
+      "email": "linda.martinez@productco.com",
+      "job_title": "Product Manager",
+      "company": "ProductCo Inc."
+    }
+  },
+  "25": {
+    "original_email": "Hello,  We appreciate your feedback and will take it into consideration. Our team is constantly working to improve our services, and your input is invaluable in this process. If you have any additional comments or suggestions, please feel free to share them with us.  Best, Customer Relations Team relations@serviceco.com ServiceCo www.serviceco.com",
+    "expected_output": {
+      "email": "relations@serviceco.com",
+      "company": "ServiceCo",
+      "website": "www.serviceco.com"
+    },
+    "extracted_signature": {
+      "name": "Customer Relations Team",
+      "email": "relations@serviceco.com",
+      "company": "ServiceCo",
+      "website": "www.serviceco.com"
+    }
+  },
+  "26": {
+    "original_email": "Hi everyone,  Don't forget to submit your timesheets by the end of the day. Accurate and timely submission of timesheets is critical for our payroll process and project billing. If you have any issues or need assistance, please reach out to the HR department.  Thanks, Rachel",
+    "expected_output": {
+      "name": "Rachel"
+    },
+    "extracted_signature": {
+      "name": "Rachel"
+    }
+  },
+  "27": {
+    "original_email": "Dear all,  I have completed the review of the report. Please find my comments attached. It includes some suggested revisions and additional data points that I believe will strengthen our analysis. Let's discuss these points in our next team meeting.  Best, Oliver Oliver Brown Financial Analyst oliver.brown@financeco.com FinanceCo",
+    "expected_output": {
+      "name": "Oliver Brown",
+      "email": "oliver.brown@financeco.com",
+      "job_title": "Financial Analyst",
+      "company": "FinanceCo"
+    },
+    "extracted_signature": {
+      "name": "Oliver Brown",
+      "email": "oliver.brown@financeco.com",
+      "job_title": "Financial Analyst",
+      "company": "FinanceCo"
+    }
+  },
+  "28": {
+    "original_email": "Hi,  We are pleased to inform you that your application has been approved. Congratulations! Please review the attached document for the next steps and required actions. If you have any questions or need further assistance, feel free to reach out to us.  Regards, Admin Team admin@approvalco.com ApprovalCo",
+    "expected_output": {
+      "email": "admin@approvalco.com",
+      "company": "ApprovalCo"
+    },
+    "extracted_signature": {
+      "name": "Admin Team",
+      "email": "admin@approvalco.com",
+      "company": "ApprovalCo"
+    }
+  },
+  "29": {
+    "original_email": "Hi Emma,  I hope this message finds you well. I wanted to thank you for sending over the latest financial reports. I\u2019ll dive into the figures and analyze the trends. Expect my detailed feedback by the end of tomorrow. If you have any additional data or insights that you think would be helpful, please send them my way.  Best regards, James",
+    "expected_output": {
+      "name": "James"
+    },
+    "extracted_signature": {
+      "name": "James"
+    }
+  },
+  "30": {
+    "original_email": "Dear Team,  This is a friendly reminder about our quarterly review meeting scheduled for Thursday at 3 PM. We will be discussing our performance metrics, strategic goals for the next quarter, and any challenges we\u2019re facing. Please review the attached agenda and come prepared with your updates and any questions you might have.  Looking forward to a productive discussion.  Warm regards, Laura Martinez Senior Operations Manager laura.martinez@operationsco.com OperationsCo",
+    "expected_output": {
+      "name": "Laura Martinez",
+      "email": "laura.martinez@operationsco.com",
+      "job_title": "Senior Operations Manager",
+      "company": "OperationsCo"
+    },
+    "extracted_signature": {
+      "name": "Laura Martinez",
+      "email": "laura.martinez@operationsco.com",
+      "job_title": "Senior Operations Manager",
+      "company": "OperationsCo"
+    }
+  },
+  "31": {
+    "original_email": "Hello Team,  I am reaching out to follow up on the recent project proposal. After reviewing the initial draft, I believe there are a few areas where we can enhance our approach. I would like to schedule a meeting next week to discuss these improvements and ensure that we are aligned before finalizing the proposal. Please let me know your availability.  Best regards, David Kim Project Lead david.kim@projectsolutions.com Project Solutions Phone: +1 (555) 789-1234 Website: www.projectsolutions.com",
+    "expected_output": {
+      "name": "David Kim",
+      "email": "david.kim@projectsolutions.com",
+      "job_title": "Project Lead",
+      "company": "Project Solutions",
+      "phone": "+1 (555) 789-1234",
+      "website": "www.projectsolutions.com"
+    },
+    "extracted_signature": {
+      "name": "David Kim",
+      "email": "david.kim@projectsolutions.com",
+      "phone": "+1 (555) 789-1234",
+      "job_title": "Project Lead",
+      "company": "Project Solutions",
+      "website": "www.projectsolutions.com"
+    }
+  },
+  "32": {
+    "original_email": "Hi team,  Just a quick reminder about the department meeting scheduled for tomorrow at 10 AM. We will cover updates on the new project initiatives, review the current status of ongoing tasks, and address any team concerns. Please make sure to review the attached documents beforehand and be ready to provide your input.  Thanks, Anna",
+    "expected_output": {
+      "name": "Anna"
+    },
+    "extracted_signature": {
+      "name": "Anna"
+    }
+  },
+  "33": {
+    "original_email": "Dear Colleagues,  Attached, you will find the revised budget proposal for our upcoming fiscal year. I would appreciate it if you could review the document and share any comments or suggestions by Friday afternoon. Your feedback is crucial to ensure that our budget aligns with our strategic objectives and resource requirements.  Thank you in advance for your cooperation.  Kind regards, Michael Edwards Finance Director michael.edwards@financecorp.com FinanceCorp",
+    "expected_output": {
+      "name": "Michael Edwards",
+      "email": "michael.edwards@financecorp.com",
+      "job_title": "Finance Director",
+      "company": "FinanceCorp"
+    },
+    "extracted_signature": {
+      "name": "Michael Edwards",
+      "email": "michael.edwards@financecorp.com",
+      "job_title": "Finance Director",
+      "company": "FinanceCorp"
+    }
+  },
+  "34": {
+    "original_email": "Hello,  We have successfully processed your recent order. The estimated delivery date is within 7-10 business days. You will receive a notification once your package is on its way. If you have any questions regarding your order or need further assistance, please contact us at the support email provided below.  Thank you for choosing our service.  Best regards, Customer Service Team support@shopsecure.com ShopSecure Website: www.shopsecure.com",
+    "expected_output": {
+      "email": "support@shopsecure.com",
+      "company": "ShopSecure",
+      "website": "www.shopsecure.com"
+    },
+    "extracted_signature": {
+      "name": "Customer Service Team",
+      "email": "support@shopsecure.com",
+      "company": "ShopSecure",
+      "website": "www.shopsecure.com"
+    }
+  },
+  "35": {
+    "original_email": "Hi everyone,  Just a reminder that the team lunch is scheduled for tomorrow at 12:30 PM at The Bistro. It\u2019s a great opportunity to catch up and discuss our recent accomplishments. Please let me know if you have any dietary restrictions or if you won\u2019t be able to make it.  Looking forward to seeing you all there!  Best, Rachel",
+    "expected_output": {
+      "name": "Rachel"
+    },
+    "extracted_signature": {
+      "name": "Rachel"
+    }
+  },
+  "36": {
+    "original_email": "Dear Customer,  Thank you for reaching out to our support team. We have received your inquiry and will be looking into it shortly. Our team aims to provide a resolution within 24 hours. If your issue is urgent, please contact our support hotline for immediate assistance.  Sincerely, Customer Support Team support@helpdesk.com HelpDesk Inc. Phone: +1 (555) 345-6789 Website: www.helpdesk.com",
+    "expected_output": {
+      "email": "support@helpdesk.com",
+      "company": "HelpDesk Inc.",
+      "phone": "+1 (555) 345-6789",
+      "website": "www.helpdesk.com"
+    },
+    "extracted_signature": {
+      "name": "Customer Support Team",
+      "email": "support@helpdesk.com",
+      "phone": "+1 (555) 345-6789",
+      "company": "HelpDesk Inc.",
+      "website": "www.helpdesk.com"
+    }
+  },
+  "37": {
+    "original_email": "Hi Team,  Just a heads-up that the final deadline for the client project is approaching next Friday. Please ensure that all deliverables are completed and reviewed by Thursday so we have time to make any final adjustments. Let me know if you need any additional resources or support.  Thanks, Samantha",
+    "expected_output": {
+      "name": "Samantha"
+    },
+    "extracted_signature": {
+      "name": "Samantha"
+    }
+  },
+  "38": {
+    "original_email": "Hello,  Please see the attached flyer for our upcoming company retreat. The retreat will include team-building activities, strategy sessions, and plenty of opportunities to unwind and connect with colleagues. Review the details and let us know if you will be attending or if you have any questions.  Thank you, Oliver Green Event Coordinator oliver.green@companyevents.com Company Events Phone: +1 (555) 678-9012 Website: www.companyevents.com",
+    "expected_output": {
+      "name": "Oliver Green",
+      "email": "oliver.green@companyevents.com",
+      "job_title": "Event Coordinator",
+      "company": "Company Events",
+      "phone": "+1 (555) 678-9012",
+      "website": "www.companyevents.com"
+    },
+    "extracted_signature": {
+      "name": "Oliver Green",
+      "email": "oliver.green@companyevents.com",
+      "phone": "+1 (555) 678-9012",
+      "job_title": "Event Coordinator",
+      "company": "Company Events",
+      "website": "www.companyevents.com"
+    }
+  },
+  "39": {
+    "original_email": "Hi,  I\u2019d like to schedule a meeting to go over the details of the new project proposal. Please let me know your availability over the next week so we can coordinate a suitable time for both of us. I\u2019m looking forward to discussing how we can make this project a success.  Thanks, Diana",
+    "expected_output": {
+      "name": "Diana"
+    },
+    "extracted_signature": {
+      "name": "Diana"
+    }
+  },
+  "40": {
+    "original_email": "Dear Team,  Please review the attached product design documents and provide your feedback by end of day Thursday. We are looking for input on design functionality, usability, and any potential improvements. Your feedback will be instrumental in refining the product before our next development phase.  Best regards, John Carter Product Development Manager john.carter@productdev.com ProductDev Ltd.",
+    "expected_output": {
+      "name": "John Carter",
+      "email": "john.carter@productdev.com",
+      "job_title": "Product Development Manager",
+      "company": "ProductDev Ltd."
+    },
+    "extracted_signature": {
+      "name": "John Carter",
+      "email": "john.carter@productdev.com",
+      "job_title": "Product Development Manager",
+      "company": "ProductDev Ltd."
+    }
+  },
+  "41": {
+    "original_email": "Hi Mark,  I hope you're doing well. I just wanted to follow up on the proposal we discussed last week. I have attached the revised version with the updates we talked about. Please take a look and let me know if there are any further changes you'd like to see. I'll be available for a call later this afternoon if you have any questions or need to discuss anything in detail.  Best, Julie",
+    "expected_output": {
+      "name": "Julie"
+    },
+    "extracted_signature": {}
+  },
+  "42": {
+    "original_email": "Dear Team,  I hope you all had a great weekend. This is a reminder that our monthly performance review meeting is scheduled for Wednesday at 2 PM in the main conference room. We will go over the key performance indicators, departmental achievements, and areas that need improvement. Please make sure to bring your reports and be ready to discuss your progress.  Looking forward to a productive meeting.  Best regards, Tom Harris Operations Manager tom.harris@operationsinc.com Operations Inc.",
+    "expected_output": {
+      "name": "Tom Harris",
+      "email": "tom.harris@operationsinc.com",
+      "job_title": "Operations Manager",
+      "company": "Operations Inc."
+    },
+    "extracted_signature": {
+      "name": "Tom Harris",
+      "email": "tom.harris@operationsinc.com",
+      "job_title": "Operations Manager",
+      "company": "Operations Inc."
+    }
+  },
+  "43": {
+    "original_email": "Hello Team,  I wanted to follow up on our previous discussion about the new marketing campaign. I have attached the latest draft of our strategy document. Please review it and provide your feedback by the end of the day tomorrow. We need to finalize the plan and start implementation by next week.  Thank you for your attention to this matter.  Best regards, Sarah Wilson Marketing Director sarah.wilson@marketingworld.com Marketing World Inc. Phone: +1 (555) 123-4567 Website: www.marketingworld.com",
+    "expected_output": {
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@marketingworld.com",
+      "job_title": "Marketing Director",
+      "company": "Marketing World Inc.",
+      "phone": "+1 (555) 123-4567",
+      "website": "www.marketingworld.com"
+    },
+    "extracted_signature": {
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@marketingworld.com",
+      "phone": "+1 (555) 123-4567",
+      "job_title": "Marketing Director",
+      "company": "Marketing World Inc.",
+      "website": "www.marketingworld.com"
+    }
+  },
+  "44": {
+    "original_email": "Hi everyone,  I just wanted to remind you about the team-building event this Friday at 3 PM. It will be held at the downtown community center. We have planned several activities that will help us get to know each other better and strengthen our collaboration skills. Please make sure to wear comfortable clothing and bring a positive attitude!  Thanks, Michael",
+    "expected_output": {
+      "name": "Michael"
+    },
+    "extracted_signature": {
+      "name": "Michael"
+    }
+  },
+  "45": {
+    "original_email": "Dear Colleagues,  Attached you will find the latest version of our project timeline. I have incorporated the feedback received during our last meeting. Please review the document and provide any additional comments or suggestions by Friday. It\u2019s crucial that we stay on track with our deadlines and ensure all tasks are clearly defined.  Thank you for your cooperation.  Kind regards, Emma Clark Project Manager emma.clark@projectworks.com ProjectWorks Ltd.",
+    "expected_output": {
+      "name": "Emma Clark",
+      "email": "emma.clark@projectworks.com",
+      "job_title": "Project Manager",
+      "company": "ProjectWorks Ltd."
+    },
+    "extracted_signature": {
+      "name": "Emma Clark",
+      "email": "emma.clark@projectworks.com",
+      "job_title": "Project Manager",
+      "company": "ProjectWorks Ltd."
+    }
+  },
+  "46": {
+    "original_email": "Hello,  We are pleased to inform you that your subscription has been successfully renewed. Your new subscription period will start on August 1st and continue for the next 12 months. If you have any questions or need assistance, please do not hesitate to contact our support team at the email below.  Thank you for your continued support.  Best regards, Subscription Services support@subscriptions.com Subscription Services Ltd. Website: www.subscriptions.com",
+    "expected_output": {
+      "email": "support@subscriptions.com",
+      "company": "Subscription Services Ltd.",
+      "website": "www.subscriptions.com"
+    },
+    "extracted_signature": {
+      "name": "Subscription Services",
+      "email": "support@subscriptions.com",
+      "company": "Subscription Services Ltd.",
+      "website": "www.subscriptions.com"
+    }
+  },
+  "47": {
+    "original_email": "Hi all,  Please join me in welcoming our new colleague, John Smith, who will be joining our team as a Senior Developer. John comes with extensive experience in software development and will be a valuable addition to our team. We are excited to have him on board and look forward to working with him.  Best regards, Karen",
+    "expected_output": {
+      "name": "Karen"
+    },
+    "extracted_signature": {
+      "name": "Karen"
+    }
+  },
+  "48": {
+    "original_email": "Dear Customer,  Thank you for reaching out to our support team. We have received your inquiry and are currently looking into it. We aim to respond within 24 hours with a solution or an update on the status of your request. In the meantime, if you need immediate assistance, please call our support hotline.  Sincerely, Customer Support Team support@techservices.com TechServices Inc. Phone: +1 (555) 876-5432 Website: www.techservices.com",
+    "expected_output": {
+      "email": "support@techservices.com",
+      "company": "TechServices Inc.",
+      "phone": "+1 (555) 876-5432",
+      "website": "www.techservices.com"
+    },
+    "extracted_signature": {
+      "name": "Customer Support Team",
+      "email": "support@techservices.com",
+      "phone": "+1 (555) 876-5432",
+      "company": "TechServices Inc.",
+      "website": "www.techservices.com"
+    }
+  },
+  "49": {
+    "original_email": "Hi Team,  I hope you\u2019re all having a productive week. Just a quick reminder that the final draft of the project report is due by Friday. Please ensure that all sections are completed and reviewed. If you need any help or have any questions, don't hesitate to reach out to me.  Thanks, Alicia",
+    "expected_output": {
+      "name": "Alicia"
+    },
+    "extracted_signature": {
+      "name": "Alicia"
+    }
+  },
+  "50": {
+    "original_email": "Hello,  Please find attached the invitation to our annual company gala. The event will be held at the Grand Ballroom on September 15th, starting at 6 PM. We have an exciting evening planned with dinner, awards, and entertainment. Please RSVP by September 1st.  Looking forward to celebrating with you.  Best regards, Julia Thompson Event Coordinator julia.thompson@eventscorp.com Events Corp. Phone: +1 (555) 432-1098 Website: www.eventscorp.com",
+    "expected_output": {
+      "name": "Julia Thompson",
+      "email": "julia.thompson@eventscorp.com",
+      "job_title": "Event Coordinator",
+      "company": "Events Corp.",
+      "phone": "+1 (555) 432-1098",
+      "website": "www.eventscorp.com"
+    },
+    "extracted_signature": {
+      "name": "Julia Thompson",
+      "email": "julia.thompson@eventscorp.com",
+      "phone": "+1 (555) 432-1098",
+      "job_title": "Event Coordinator",
+      "company": "Events Corp.",
+      "website": "www.eventscorp.com"
+    }
+  },
+  "51": {
+    "original_email": "Hi,  I would like to schedule a call to discuss the upcoming audit. Please let me know your availability over the next few days. It\u2019s important that we go over the checklist and ensure that everything is in order before the auditors arrive.  Thanks, Chris",
+    "expected_output": {
+      "name": "Chris"
+    },
+    "extracted_signature": {
+      "name": "Chris"
+    }
+  },
+  "52": {
+    "original_email": "Dear Team,  Please review the attached marketing strategy document and provide your feedback by end of day Wednesday. Your input is crucial to refining our approach and ensuring we meet our campaign objectives. We will discuss the feedback in our next meeting on Thursday.  Best regards, Nina Patel Marketing Manager nina.patel@marketingsolutions.com Marketing Solutions Ltd.",
+    "expected_output": {
+      "name": "Nina Patel",
+      "email": "nina.patel@marketingsolutions.com",
+      "job_title": "Marketing Manager",
+      "company": "Marketing Solutions Ltd."
+    },
+    "extracted_signature": {
+      "name": "Nina Patel",
+      "email": "nina.patel@marketingsolutions.com",
+      "job_title": "Marketing Manager",
+      "company": "Marketing Solutions Ltd."
+    }
+  },
+  "53": {
+    "original_email": "Hello,  Thank you for your recent feedback regarding our service. We value your input and will use it to improve our offerings. If you have any further comments or suggestions, please do not hesitate to reach out to us.  Best regards, Customer Relations Team relations@customerfocus.com CustomerFocus Inc. Website: www.customerfocus.com",
+    "expected_output": {
+      "email": "relations@customerfocus.com",
+      "company": "CustomerFocus Inc.",
+      "website": "www.customerfocus.com"
+    },
+    "extracted_signature": {
+      "name": "Customer Relations Team",
+      "email": "relations@customerfocus.com",
+      "company": "CustomerFocus Inc.",
+      "website": "www.customerfocus.com"
+    }
+  },
+  "54": {
+    "original_email": "Hi everyone,  Just a quick reminder to submit your weekly status reports by the end of the day. Your updates are important for our project tracking and reporting. If you have any issues or need more time, please let me know.  Thanks, Jason",
+    "expected_output": {
+      "name": "Jason"
+    },
+    "extracted_signature": {
+      "name": "Jason"
+    }
+  },
+  "55": {
+    "original_email": "Dear Colleagues,  I have completed my review of the financial analysis report. Please find my comments and suggestions attached. It\u2019s essential that we address these points before our next meeting. Let\u2019s aim to finalize the report by the end of this week.  Best, David Brown Financial Analyst david.brown@financeworks.com FinanceWorks Ltd.",
+    "expected_output": {
+      "name": "David Brown",
+      "email": "david.brown@financeworks.com",
+      "job_title": "Financial Analyst",
+      "company": "FinanceWorks Ltd."
+    },
+    "extracted_signature": {
+      "name": "David Brown",
+      "email": "david.brown@financeworks.com",
+      "job_title": "Financial Analyst",
+      "company": "FinanceWorks Ltd."
+    }
+  },
+  "56": {
+    "original_email": "Hi,  We are pleased to inform you that your application for the position of Software Engineer has been approved. Our HR department will reach out to you shortly with the next steps. We look forward to welcoming you to our team.  Best regards, Hiring Team hr@techinnovators.com Tech Innovators Website: www.techinnovators.com",
+    "expected_output": {
+      "email": "hr@techinnovators.com",
+      "company": "Tech Innovators",
+      "website": "www.techinnovators.com"
+    },
+    "extracted_signature": {
+      "name": "Hiring Team",
+      "email": "hr@techinnovators.com",
+      "company": "Tech Innovators",
+      "website": "www.techinnovators.com"
+    }
+  },
+  "57": {
+    "original_email": "Hello Team,  I hope you all are doing well. Please be informed that the IT department will be performing scheduled maintenance on our servers this weekend. The system will be offline from Saturday 10 PM to Sunday 6 AM. Plan your work accordingly to avoid any disruption.  Thank you for your understanding.  Best, IT Support support@techsolutions.com TechSolutions Inc.",
+    "expected_output": {
+      "email": "support@techsolutions.com",
+      "company": "TechSolutions Inc."
+    },
+    "extracted_signature": {
+      "name": "IT Support",
+      "email": "support@techsolutions.com",
+      "company": "TechSolutions Inc."
+    }
+  },
+  "58": {
+    "original_email": "Hi Team,  I hope you are all doing well. I wanted to remind you about our upcoming charity run this Saturday. We are meeting at 8 AM at the city park. Make sure to wear comfortable running shoes and bring water. This is a great opportunity for us to give back to the community and have some fun together. Let\u2019s make it a memorable event!  Cheers, Emily",
+    "expected_output": {
+      "name": "Emily"
+    },
+    "extracted_signature": {
+      "name": "Emily"
+    }
+  },
+  "59": {
+    "original_email": "Dear Mr. Smith,  Thank you for your patience. I have reviewed your complaint regarding the recent service disruption. We have identified the issue and are working to ensure it does not happen again. As a token of our apology, we are offering you a 10% discount on your next billing cycle. Please do not hesitate to contact us if you have any further concerns.  Sincerely, Customer Service support@telecomprovider.com Telecom Provider Inc. Phone: +1 (555) 765-4321 Website: www.telecomprovider.com",
+    "expected_output": {
+      "email": "support@telecomprovider.com",
+      "company": "Telecom Provider Inc.",
+      "phone": "+1 (555) 765-4321",
+      "website": "www.telecomprovider.com"
+    },
+    "extracted_signature": {
+      "name": "Customer Service",
+      "email": "support@telecomprovider.com",
+      "phone": "+1 (555) 765-4321",
+      "company": "Telecom Provider Inc.",
+      "website": "www.telecomprovider.com"
+    }
+  },
+  "60": {
+    "original_email": "Hi Sarah,  I hope you had a great weekend. I wanted to follow up on the budget proposal we discussed during our last meeting. I have attached the revised version for your review. Could we schedule a time this week to go over any final adjustments? Let me know your availability.  Best regards, James",
+    "expected_output": {
+      "name": "James"
+    },
+    "extracted_signature": {
+      "name": "James"
+    }
+  },
+  "61": {
+    "original_email": "Dear Students,  Welcome to the new semester! We are excited to have you back on campus. Please make sure to attend the orientation session on Monday at 10 AM in the main auditorium. This session will provide important information about your courses, campus facilities, and extracurricular activities. We look forward to seeing you there.  Best regards, University Administration admin@university.edu University of Excellence Website: www.university.edu",
+    "expected_output": {
+      "email": "admin@university.edu",
+      "company": "University of Excellence",
+      "website": "www.university.edu"
+    },
+    "extracted_signature": {
+      "name": "University Administration",
+      "email": "admin@university.edu",
+      "company": "University of Excellence",
+      "website": "www.university.edu"
+    }
+  },
+  "62": {
+    "original_email": "Hello Team,  I wanted to share some exciting news with you all. Our company has been nominated for the 'Best Workplace' award this year! This recognition is a testament to our hard work and dedication. Thank you for your continued efforts in making our workplace a great environment. Let\u2019s keep up the fantastic work!  Cheers, Karen",
+    "expected_output": {
+      "name": "Karen"
+    },
+    "extracted_signature": {
+      "name": "Karen"
+    }
+  },
+  "63": {
+    "original_email": "Dear Parents,  We hope you are well. As part of our commitment to your child's education, we are hosting a parent-teacher conference next Wednesday from 4 PM to 6 PM. This is an opportunity to discuss your child's progress and address any concerns you may have. Please confirm your attendance by replying to this email.  Sincerely, School Administration info@school.edu Sunnydale High School Website: www.school.edu",
+    "expected_output": {
+      "email": "info@school.edu",
+      "company": "Sunnydale High School",
+      "website": "www.school.edu"
+    },
+    "extracted_signature": {
+      "email": "info@school.edu",
+      "company": "Sunnydale High School",
+      "website": "www.school.edu"
+    }
+  },
+  "64": {
+    "original_email": "Hi Team,  Just a quick update on the software development project. We are currently in the testing phase, and everything is progressing well. Please continue to report any bugs or issues you encounter to the development team. We are on track to meet our launch date next month.  Best, Liam",
+    "expected_output": {
+      "name": "Liam"
+    },
+    "extracted_signature": {
+      "name": "Liam"
+    }
+  },
+  "65": {
+    "original_email": "Dear Mr. Anderson,  I hope this email finds you well. I am writing to express my gratitude for your generous donation to our foundation. Your support will greatly contribute to our ongoing projects aimed at improving the lives of underprivileged children in our community. We would love to invite you to our annual gala next month to meet some of the children and see the impact of your contribution firsthand. Please let us know if you are able to attend.  Warm regards, Jessica Martinez Community Outreach Coordinator jessica.martinez@helpinghands.org Helping Hands Foundation",
+    "expected_output": {
+      "name": "Jessica Martinez",
+      "email": "jessica.martinez@helpinghands.org",
+      "job_title": "Community Outreach Coordinator",
+      "company": "Helping Hands Foundation"
+    },
+    "extracted_signature": {
+      "name": "Jessica Martinez",
+      "email": "jessica.martinez@helpinghands.org",
+      "job_title": "Community Outreach Coordinator",
+      "company": "Helping Hands Foundation"
+    }
+  },
+  "66": {
+    "original_email": "Hi Team,  I hope everyone had a great weekend. I wanted to remind you all that our office will be closed next Friday for the public holiday. Please make sure to complete any urgent tasks by Thursday and let me know if you have any concerns or need assistance with your workload. Enjoy the long weekend!  Best, Laura",
+    "expected_output": {
+      "name": "Laura"
+    },
+    "extracted_signature": {
+      "name": "Laura"
+    }
+  },
+  "67": {
+    "original_email": "Hello Dr. Smith,  I hope this message finds you well. I am reaching out to confirm your appointment with Dr. Jameson on Wednesday, August 5th, at 10 AM. Please let us know if you need to reschedule or have any special requests for your visit. We look forward to seeing you soon.  Best regards, Anna Green Receptionist anna.green@healthclinic.com Health Clinic",
+    "expected_output": {
+      "name": "Anna Green",
+      "email": "anna.green@healthclinic.com",
+      "job_title": "Receptionist",
+      "company": "Health Clinic"
+    },
+    "extracted_signature": {
+      "name": "Anna Green",
+      "email": "anna.green@healthclinic.com",
+      "job_title": "Receptionist",
+      "company": "Health Clinic"
+    }
+  },
+  "68": {
+    "original_email": "Dear Students,  I hope you are all enjoying your summer break. As the new academic year approaches, I wanted to remind you to complete your course registrations and review the updated syllabus for your respective programs. If you have any questions or need guidance, please do not hesitate to reach out to the academic office. We are here to support you in your educational journey.  Sincerely, Prof. John Wilson Dean of Students john.wilson@university.edu University of Education",
+    "expected_output": {
+      "name": "Prof. John Wilson",
+      "email": "john.wilson@university.edu",
+      "job_title": "Dean of Students",
+      "company": "University of Education"
+    },
+    "extracted_signature": {
+      "name": "Prof. John Wilson",
+      "email": "john.wilson@university.edu",
+      "job_title": "Dean of Students",
+      "company": "University of Education"
+    }
+  },
+  "69": {
+    "original_email": "Hi Sarah,  I wanted to personally thank you for your outstanding work on the recent project. Your dedication and creativity have not gone unnoticed, and I am truly impressed with the results. As a token of appreciation, I have arranged for a small gift to be delivered to your office. Keep up the excellent work!  Best, Mark",
+    "expected_output": {
+      "name": "Mark"
+    },
+    "extracted_signature": {
+      "name": "Mark",
+      "email": null,
+      "phone": null,
+      "job_title": null,
+      "company": null,
+      "address": null,
+      "website": null,
+      "social_media": {
+        "linkedin": null,
+        "twitter": null
+      }
+    }
+  },
+  "70": {
+    "original_email": "Dear Customers,  We are excited to announce the launch of our new product line next month! To celebrate, we will be hosting a special event at our flagship store with exclusive discounts, giveaways, and product demonstrations. Stay tuned for more details and mark your calendars. We can't wait to share our latest innovations with you.  Warm regards, The Marketing Team marketing@innovativeproducts.com Innovative Products Inc.",
+    "expected_output": {
+      "email": "marketing@innovativeproducts.com",
+      "company": "Innovative Products Inc."
+    },
+    "extracted_signature": {
+      "name": "The Marketing Team",
+      "email": "marketing@innovativeproducts.com",
+      "company": "Innovative Products Inc."
+    }
+  },
+  "71": {
+    "original_email": "Hello,  I wanted to follow up on our recent interview. I am pleased to inform you that we have decided to move forward with your application. Our HR department will contact you soon with the next steps. We are excited about the prospect of having you join our team and look forward to working with you.  Best regards, Hiring Manager hiring@company.com Company Inc.",
+    "expected_output": {
+      "email": "hiring@company.com",
+      "company": "Company Inc."
+    },
+    "extracted_signature": {
+      "name": "Hiring Manager",
+      "email": "hiring@company.com",
+      "company": "Company Inc."
+    }
+  },
+  "72": {
+    "original_email": "Dear Volunteers,  Thank you all for your hard work and dedication during our annual charity event. Your efforts have made a significant impact on our community, and we couldn't have done it without you. We are planning a thank-you dinner next Friday to celebrate our success and show our appreciation. Please RSVP by this Wednesday.  Sincerely, Emily Rogers Volunteer Coordinator emily.rogers@charity.org Charity Organization",
+    "expected_output": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@charity.org",
+      "job_title": "Volunteer Coordinator",
+      "company": "Charity Organization"
+    },
+    "extracted_signature": {
+      "name": "Emily Rogers",
+      "email": "emily.rogers@charity.org",
+      "job_title": "Volunteer Coordinator",
+      "company": "Charity Organization"
+    }
+  },
+  "73": {
+    "original_email": "Hi all,  As we approach the end of the quarter, I wanted to remind everyone to submit their performance reviews and update their project statuses in the system. Your timely submissions are crucial for our quarterly reporting. If you have any questions or need assistance, please reach out to the HR department.  Thanks, Jennifer",
+    "expected_output": {
+      "name": "Jennifer"
+    },
+    "extracted_signature": {
+      "name": "Jennifer"
+    }
+  },
+  "74": {
+    "original_email": "Hello Mr. Brown,  I hope you are doing well. I am writing to confirm your reservation at our hotel from August 10th to August 15th. We have booked a deluxe suite for you, and our team will ensure that your stay is comfortable and enjoyable. If you have any special requests or need assistance with transportation, please let us know.  Warm regards, Alex Turner Front Desk Manager alex.turner@luxuryhotel.com Luxury Hotel",
+    "expected_output": {
+      "name": "Alex Turner",
+      "email": "alex.turner@luxuryhotel.com",
+      "job_title": "Front Desk Manager",
+      "company": "Luxury Hotel"
+    },
+    "extracted_signature": {
+      "name": "Alex Turner",
+      "email": "alex.turner@luxuryhotel.com",
+      "job_title": "Front Desk Manager",
+      "company": "Luxury Hotel"
+    }
+  },
+  "75": {
+    "original_email": "Dear Parents,  We are thrilled to announce our upcoming parent-teacher conference, which will be held next Thursday at 5 PM in the school auditorium. This is a great opportunity to discuss your child's progress and address any concerns you may have. Please confirm your attendance by the end of the week.  Best regards, Mrs. Linda Johnson School Principal linda.johnson@greenschool.edu Green School",
+    "expected_output": {
+      "name": "Mrs. Linda Johnson",
+      "email": "linda.johnson@greenschool.edu",
+      "job_title": "School Principal",
+      "company": "Green School"
+    },
+    "extracted_signature": {
+      "name": "Mrs. Linda Johnson",
+      "email": "linda.johnson@greenschool.edu",
+      "job_title": "School Principal",
+      "company": "Green School"
+    }
+  },
+  "76": {
+    "original_email": "Hi Team,  I hope this email finds you well. As we prepare for the upcoming trade show, I wanted to share the finalized schedule and booth assignments. Please review the attached document and familiarize yourself with your responsibilities. If you have any questions or need further information, don't hesitate to reach out.  Best, Tom",
+    "expected_output": {
+      "name": "Tom"
+    },
+    "extracted_signature": {
+      "name": "Tom"
+    }
+  },
+  "77": {
+    "original_email": "Hello Alice,  I hope you are having a great day. I wanted to touch base regarding the project timeline. We need to ensure that all deliverables are on track for our upcoming deadline. Please provide an update on your current tasks and any potential roadblocks you might be facing. Let's coordinate to address any issues promptly.  Thanks, Robert",
+    "expected_output": {
+      "name": "Robert"
+    },
+    "extracted_signature": {
+      "name": "Robert"
+    }
+  }
+}
